@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import JS from "../../src/JS.png"
 
 const AboutMe = () => {
     return(
@@ -10,7 +10,7 @@ const AboutMe = () => {
                 <p>I hope that once I complete Lambda School I can join a AR/VR company or gaming company as a Software Developer.</p>
             </div>
             <div className="about-img">
-                <img src="src/programmingimage.jpeg" />
+                <img src={JS} />
             </div>
         </div>
     )

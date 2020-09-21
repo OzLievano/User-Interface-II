@@ -31,3 +31,22 @@
   width: 25%;
   box-sizing: border-box;
 }
+
+.about-container{
+  display:flex;
+  margin-top: 3%;
+  border: 2px solid pink;
+  margin-bottom: 3%;
+  justify-content: space-between;
+}
+
+.description{
+  width:50%;
+}
+
+.about-img{
+  width:50%
+}
+.about-img img{
+  width:100%;
+}
