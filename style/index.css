@@ -19,27 +19,34 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    box-sizing: border-box;
 }
 
-
-.top-container{
-    background-color: aqua;
-    padding:2%;
+.page-container{
+   box-sizing: border-box;
+   border: solid 2px red;
 }
+.logo-box{
+    display:flex;
+    background: lightgrey;
+    box-sizing: border-box;
+    justify-content: space-between;
+    width: 100%;
+    border: solid 2px red;
+}
+
 
 h1{
     font-family: fantasy;
-    font-size: 40px;
-}
+    font-size: 2em;
+    margin-left: 1em;
 
-.navbar{
-    margin: 20px;
-    display:flex;
-}
 
 button{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    background: none;
 }
 .navbar button{
     text-decoration: none;
