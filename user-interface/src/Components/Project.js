@@ -8,7 +8,7 @@ const Project = props => {
             <div className="project">
                 <h3>Project Name:{project.project_name}</h3>
                 <img src={project.avatar_url}></img>
-                <p>To visit this project, click here:{project.project_url}, project collaborator:{project.project_collaborators}</p>
+                <p>To visit this project, click here:<button><a href={project.project_url}></a>Project URL</button>, project collaborator:{project.project_collaborators}</p>
             </div>
     )
 }

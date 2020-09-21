@@ -1,14 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import projects from './projects';
+import projects from '../projects';
 import BoxProjects from'./BoxProjects';
 import NavBar from './NavBar';
+import AboutMe from './AboutMe';
 
 function App() {
   return (
     <>
     <NavBar data={projects} />
+    <AboutMe />
     <BoxProjects data = {projects}/>
     </>
   )
